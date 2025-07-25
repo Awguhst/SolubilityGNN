@@ -3,7 +3,9 @@
 This project offers a **machine learning framework** for predicting **polymer solubility** in various solvents based on **SMILES** representations. Using a **(SolubilityGNN)**, the app enables **real-time solubility predictions**, helping you quickly identify suitable solvents for polymers.
 
 ## 🎥 Demo
-[Insert Streamlit app demo GIF]
+![Streamlit app GIF](media/demo.gif)
+
+> *Visualization of the interactive Streamlit web app for polymer solubility prediction.*
 
 ---
 
