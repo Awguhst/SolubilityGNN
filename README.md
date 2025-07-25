@@ -9,12 +9,6 @@ This project offers a **machine learning framework** for predicting **polymer so
 
 ---
 
-## Motivation
-
-Polymer-solvent compatibility is a key challenge in materials science. Traditional experimental methods are often **slow** and **expensive**, making this data-driven approach an efficient alternative. By combining **molecular graph learning** and **physicochemical descriptors**, this project accelerates the prediction process.
-
----
-
 ## Overview
 
 The app utilizes the **SolubilityGNN** model to convert monomer and solvent **SMILES** strings into molecular graphs. It then integrates **graph-based features** with **physicochemical properties** to predict the solubility of a polymer in a given solvent. The app also recommends **top alternative solvents** based on these predictions.
