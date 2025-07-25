@@ -26,7 +26,7 @@ The app utilizes the **SolubilityGNN** model to convert **monomer** and **solven
 
 ---
 
-### Streamlit App Interface
+## Streamlit App Interface
 
 The app’s interface is simple and user-friendly. Here's how to use it:
 
