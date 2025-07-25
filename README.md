@@ -50,7 +50,7 @@ The **SolubilityGNN** model processes both polymer and solvent as molecular grap
 
 - **TransformerConv Layers**: Capture molecular interactions between atoms and bonds through bond and edge features.
 - **Batch Normalization**: Stabilizes training and accelerates convergence.
-- **GINConv Layer**: A **Graph Isomorphism Network** that extracts higher-level molecular patterns without relying on edge attributes.
+- **GINConv Layer**: A **Graph Isomorphism Network** that extracts higher-level molecular patterns without relying on edge features.
 - **Fully Connected Layers**: Combine graph features with molecular descriptors to predict solubility, utilizing **GELU activations** and **dropout** to prevent overfitting.
 - **Prediction**: Outputs a single **probability score**, representing the likelihood of the polymer dissolving in the solvent.
 
