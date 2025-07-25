@@ -65,10 +65,26 @@ The **SolubilityGNN** model processes both polymer and solvent as molecular grap
 
 ## **References**
 
-1. **Jha, R. S., et al.** "Solubility prediction using graph neural networks: A machine learning approach." *Journal of Chemical Information and Modeling*, vol. 61, no. 8, 2021, pp. 3812-3820.  
-2. **Rupp, M., et al.** "Fast and Accurate Modeling of Molecular Atomization Energies with Machine Learning." *Physical Review Letters*, vol. 108, no. 5, 2012, 058301.
-3. **Wu, Z., et al.** "Solvent-based Machine Learning Models for Molecular Properties." *Journal of the American Chemical Society*, vol. 142, no. 14, 2020, pp. 6297-6306.
-4. **Klicic, J., et al.** "SMILES Strings as Molecular Graphs: A Benchmark for Polymer Solubility Prediction." *Materials Science and Engineering: C*, vol. 109, 2020, 110469.
-5. **Data source**: [Polymer Solubility Dataset](https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00290c)
-6. **Vaswani, A., et al.** "Attention is all you need." *NeurIPS 2017*.  
-7. **Xu, K., et al.** "How Powerful are Graph Neural Networks?" *ICLR 2019*.
+1. **Feinberg, E. N., et al.** (2018). PotentialNet for Molecular Property Prediction. *ACS Central Science*, 4(11), 1520–1530.  
+   [https://doi.org/10.1021/acscentsci.8b00507](https://doi.org/10.1021/acscentsci.8b00507)
+
+2. **Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E.** (2017). Neural Message Passing for Quantum Chemistry. *International Conference on Machine Learning (ICML)*.  
+   [https://doi.org/10.48550/arXiv.1704.01212](https://doi.org/10.48550/arXiv.1704.01212)
+
+3. **Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E.** (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.  
+   [https://jmlr.org/papers/v12/pedregosa11a.html](https://jmlr.org/papers/v12/pedregosa11a.html)
+
+4. **RDKit: Open-source cheminformatics software.** (2006).  
+   Available at: [http://www.rdkit.org](http://www.rdkit.org)
+
+5. **Stubbs, C. D., et al.** (2025). Predicting homopolymer and copolymer solubility through machine learning. *Dalton Transactions*.  
+   [https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00290c](https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00290c)
+
+6. **Vaswani, A., et al.** (2017). Attention is all you need. *NeurIPS 2017*.  
+   [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+
+7. **Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., & Bengio, Y.** (2018). Graph Attention Networks. *International Conference on Learning Representations (ICLR)*.  
+   [https://doi.org/10.48550/arXiv.1710.10903](https://doi.org/10.48550/arXiv.1710.10903)
+
+8. **Xu, K., Hu, W., Leskovec, J., & Jegelka, S.** (2019). How Powerful are Graph Neural Networks? *Proceedings of the International Conference on Learning Representations (ICLR)*.  
+   [https://doi.org/10.48550/arXiv.1810.00826](https://doi.org/10.48550/arXiv.1810.00826)
