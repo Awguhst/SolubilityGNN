@@ -17,7 +17,6 @@ The app utilizes the **SolubilityGNN** model to convert **monomer** and **solven
 
 ## Features
 
-### Solubility Prediction
 - **2D Visualization**: Displays **2D structures** of both the polymer and solvent from their SMILES strings for easy visualization.
 - **Solubility Prediction**: Predicts the **probability** of polymer solubility in the solvent, shown as a **percentage**. Higher values indicate a stronger likelihood of solubility.
 - **Solvent Classification**: Classifies solvents as **protic** or **aprotic**, reflecting their **hydrogen-bonding potential**, which impacts polymer-solvent interactions.
