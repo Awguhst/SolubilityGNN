@@ -30,13 +30,13 @@ The app utilizes the **SolubilityGNN** model to convert **monomer** and **solven
 
 The app’s interface is simple and user-friendly. Here's how to use it:
 
-1. **Enter Polymer SMILES**:  
+- **Enter Polymer SMILES**:  
    Input the **SMILES string** of the polymer (e.g., ``C#C``).
 
-2. **Enter Solvent SMILES (Optional)**:  
+- **Enter Solvent SMILES (Optional)**:  
    Optionally input the **SMILES string** of the solvent. If left blank, the app will use a **default solvent**.
 
-3. **Click "Predict"**:  
+- **Click "Predict"**:  
    After entering the SMILES strings, click the **"Predict"** button. The app will display:
    - **Predicted Solubility** as a **probability score**.
    - **2D structures** of both the polymer and the solvent.
