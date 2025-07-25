@@ -1,23 +1,17 @@
-# Polymer Solubility Prediction
+# **Polymer Solubility Prediction**
 
-This project offers a **machine learning framework** for predicting **polymer solubility** in various solvents based on **SMILES** representations. Using a **(SolubilityGNN)**, the app enables **real-time solubility predictions**, helping you quickly identify suitable solvents for polymers.
+This project provides a **machine learning framework** designed to predict **polymer solubility** in various solvents using **SMILES** representations. Powered by **SolubilityGNN**, this app offers **real-time solubility predictions**, enabling users to quickly identify suitable solvents for polymers.
 
-## 🎥 Demo
+## 🎥 **Demo**
 ![Streamlit app GIF](media/demo.gif)
 
 > *Visualization of the interactive Streamlit web app for polymer solubility prediction.*
 
 ---
 
-## Motivation
+## **Overview**
 
-Polymer-solvent compatibility is a key challenge in materials science. Traditional experimental methods are often **slow** and **expensive**, making this data-driven approach an efficient alternative. By combining **molecular graph learning** and **physicochemical descriptors**, this project accelerates the prediction process.
-
----
-
-## Overview
-
-The app utilizes the **SolubilityGNN** model to convert monomer and solvent **SMILES** strings into molecular graphs. It then integrates **graph-based features** with **physicochemical properties** to predict the solubility of a polymer in a given solvent. The app also recommends **top alternative solvents** based on these predictions.
+The app utilizes the **SolubilityGNN** model to convert **monomer** and **solvent SMILES** strings into **molecular graphs**. These graphs are then combined with **graph-based features** and **physicochemical properties** to predict the solubility of a polymer in a given solvent. Additionally, the app suggests **top alternative solvents** based on these predictions.
 
 ---
 
@@ -34,7 +28,7 @@ The app utilizes the **SolubilityGNN** model to convert monomer and solvent **SM
 
 ### Streamlit App Interface
 
-The app's interface is quite simple and easy to use.
+The app’s interface is simple and user-friendly. Here's how to use it:
 
 1. **Enter Polymer SMILES**:  
    Input the **SMILES string** of the polymer (e.g., ``C#C``).
@@ -66,3 +60,31 @@ The **SolubilityGNN** model processes both polymer and solvent as molecular grap
 
 - **Validation Accuracy**: **82%** (5-fold cross-validation)
 - **Validation AUC (Area Under the Curve)**: **0.88** (5-fold cross-validation)
+
+---
+
+## **References**
+
+1. **Feinberg, E. N., et al.** (2018). PotentialNet for Molecular Property Prediction. *ACS Central Science*, 4(11), 1520–1530.  
+   [https://doi.org/10.1021/acscentsci.8b00507](https://doi.org/10.1021/acscentsci.8b00507)
+
+2. **Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E.** (2017). Neural Message Passing for Quantum Chemistry. *International Conference on Machine Learning (ICML)*.  
+   [https://doi.org/10.48550/arXiv.1704.01212](https://doi.org/10.48550/arXiv.1704.01212)
+
+3. **Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E.** (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.  
+   [https://jmlr.org/papers/v12/pedregosa11a.html](https://jmlr.org/papers/v12/pedregosa11a.html)
+
+4. **RDKit: Open-source cheminformatics software.** (2006).  
+   Available at: [http://www.rdkit.org](http://www.rdkit.org)
+
+5. **Stubbs, C. D., et al.** (2025). Predicting homopolymer and copolymer solubility through machine learning. *Dalton Transactions*.  
+   [https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00290c](https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00290c)
+
+6. **Vaswani, A., et al.** (2017). Attention is all you need. *NeurIPS 2017*.  
+   [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+
+7. **Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., & Bengio, Y.** (2018). Graph Attention Networks. *International Conference on Learning Representations (ICLR)*.  
+   [https://doi.org/10.48550/arXiv.1710.10903](https://doi.org/10.48550/arXiv.1710.10903)
+
+8. **Xu, K., Hu, W., Leskovec, J., & Jegelka, S.** (2019). How Powerful are Graph Neural Networks? *Proceedings of the International Conference on Learning Representations (ICLR)*.  
+   [https://doi.org/10.48550/arXiv.1810.00826](https://doi.org/10.48550/arXiv.1810.00826)
