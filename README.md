@@ -11,7 +11,7 @@ This project provides a **machine learning framework** designed to predict **pol
 
 ## **Overview**
 
-The app utilizes the **SolubilityGNN** model to convert **monomer** and **solvent SMILES** strings into **molecular graphs**. These graphs are then combined with **graph-based features** and **physicochemical properties** to predict the solubility of a polymer in a given solvent. Additionally, the app suggests **top alternative solvents** based on these predictions.
+The app utilizes the **SolubilityGNN** model to convert **monomer** and **solvent SMILES** strings into **molecular graphs**. The **graph-based features** are then combined with **physicochemical descriptors** to predict the solubility of a polymer in a given solvent. Additionally, the app suggests **top alternative solvents** based on these predictions.
 
 ---
 
@@ -20,7 +20,7 @@ The app utilizes the **SolubilityGNN** model to convert **monomer** and **solven
 - **2D Visualization**: Displays **2D structures** of both the polymer and solvent from their SMILES strings for easy visualization.
 - **Solubility Prediction**: Predicts the **probability** of polymer solubility in the solvent, shown as a **percentage**. Higher values indicate a stronger likelihood of solubility.
 - **Solvent Classification**: Classifies solvents as **protic** or **aprotic**, reflecting their **hydrogen-bonding potential**, which impacts polymer-solvent interactions.
-- **Polarity Estimation**: Uses **RDKit** to estimate the **polarity** of solvents, helping assess their dissolving power.
+- **Polarity Estimation**: Uses **RDKit** to estimate the **polarity** of different solvents.
 - **Top 5 Alternative Solvents**: Suggests **top 5 alternative solvents** ranked by predicted solubility, offering users more solvent options to explore.
 
 ---
